@@ -1,0 +1,23 @@
+/* banner styling for tablet size */
+#banner {
+  text-align: center;
+}
+/* spacing for header */
+#banner h1 {
+  float: none;
+  display: block;
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+/*nav links centered and inline */
+#top-nav {
+  float: none;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+/* link spacing */
+#top-nav a {
+  display: inline-block;
+  margin: 5px 10px;
+}

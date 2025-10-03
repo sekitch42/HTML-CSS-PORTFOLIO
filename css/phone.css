@@ -1,0 +1,20 @@
+/* phone size banner */
+#banner {
+  text-align: center;
+}
+/* smaller font size on phones */
+#banner h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+/* stack navigation vertically */
+#top-nav {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+/* each link on own line */
+#top-nav a {
+  display: block;
+  margin: 5px 0;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* Global box size */
+*{
+box-sizing: border box;
+}
+
+/* settings to make backgroud grid look better, page full height and default padding/margins */
+html, body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* grid and linear gradient background */
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #a8e9bd;
+  background-color: #07130b;
+
+  /* grid code adapted from online source, referenced in readme */
+  background-image:
+    /* horizontal grid lines */
+    linear-gradient(rgba(0,0,0,0.12)1px, transparent 1px), 
+    /* vertical grid lines */
+    linear-gradient(90deg, rgba(0,0,0,0.12) 1px),
+    /* top to bottom gradient */
+    linear-gradient(180deg, #07130b, #04110a);
+    
+  /* gris layer and gradient layer spacing */
+  background-size: 60px 60px, 60px 60px, cover;
+}
+
+/* box container */
+.box {
+  background-color: #071b14;
+  padding: 20px;
+  opacity: .85;
+  /* rounded corners */
+  border-radius: 6px;
+  /* center horizontally and vertical */
+  margin: 20px auto;
+  /* width of box relative to page */
+  width: 60%;
+  /* space from top of banner */
+  margin-top: 90px;
+}
+
+/* wrapper styling */
+#wrapper {
+  /* overall page wrapper width */
+  width: 66%;
+  /* horizontal centering */
+  margin-left: auto;
+  margin-right: auto;
+  /* inside spacing */
+  padding: 20px;
+}
+
+/* banner styling */
+#banner {
+  /* maybe change */
+  position: relative;
+  padding: 20px;
+}
+
+
+/* hover/active link effects */
+#top-nav a:hover,
+#top-nav a:active {
+  background-color: #23ff6b;
+  color: #07130b;
+}
+
+/* navigation links styling */
+#top-nav a:link,
+#top-nav a:visited {
+  /* translucentish background */
+  background-color: rgba(255,255,255,0.05);
+  /* link text color */
+  color: #a8e9bd;
+  /* inside button space */
+  padding: 8px 15px;
+  /* centered text */
+  text-align: center;
+  /* remove link underline */
+  text-decoration: none;
+  /* allows for padding and margin */
+  display: inline-block;
+  /* prevents wrapping */
+  white-space: nowrap;
+}
+
+/* footer styling */
+footer {
+  /* to keep footer at bottom of viewport */
+  position: fixed;
+  /*stuck to bottom of page */
+  bottom: 0;
+  /* aligns to left edge */
+  left: 0;
+  /* width covers full bottom of page */
+  width: 100%;
+  /* dark panel for contrast */
+  background-color: #071b14;
+  /* text colour */
+  color: #a8e9bd;
+  /* text centered */
+  text-align: center;
+  /* inside spacing */
+  padding: 6px;
+}
