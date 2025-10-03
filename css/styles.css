@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* Global box size */
-*{
-box-sizing: border box;
+* {
+  box-sizing: border box;
 }
 
 /* settings to make backgroud grid look better, page full height and default padding/margins */
@@ -11,6 +11,12 @@ html, body
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+/* responsive form layout */
+input, textarea {
+  max-width: 70%;
+  box-sizing: border-box;
 }
 
 /* grid and linear gradient background */
@@ -52,11 +58,19 @@ body {
   margin-bottom: 10px;
 }
 
-/*wrapper for project page*/
-#project-wrapper{
-  text-align: center;
+.form-box {
+  background-color: #071b14;
+  padding: 20px;
+  opacity: .85;
+  /* rounded corners */
+  border-radius: 6px;
+  /* horizontal centering */
+  max-width: 30%;
+  margin: 0 auto;
   margin-top: 90px;
 }
+
+
 
 .proj-box {
   float: left;
@@ -66,11 +80,27 @@ body {
   opacity: .85;
   border-radius: 6px;
   width: 45%;
-  margin: 10px 2.5%;
+  margin: 2.5%;
   vertical-align: top;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 
+.proj-box h3 {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.proj-box p {
+  text-align: left;
+  margin: 0;
+}
+
+#project-wrapper {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 90px;
+}
 /* wrapper styling */
 #wrapper {
   /* overall page wrapper width */
