@@ -24,7 +24,7 @@
   
   <!--banner containing page heading and navigation links-->
   <header id="banner">
-    <h1 id="home-title">Sarah Kitchen Portfolio</h1>
+    <h1 id="home-title">Contact Me</h1>
       <!--navigation menu-->
       <nav id="top-nav">
         <a href="index.html">Home</a>
@@ -37,41 +37,43 @@
   <!--main content form info-->
   <main>
     <article>
+      <section class="box first-box">
 
-      <!--mailto opens user's default email client
-      post sends form data-->
-      <form id="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain" name="contact">
-        <!--name field-->
-        <p>
-          <label for="name">Name</label><br>
-          <input type="text" id="name" required maxlength="100">
-        </p>
+        <!--mailto opens user's default email client 
+        post sends form data-->
+        <form id="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain" name="contact">
+          <!--name field-->
+          <p>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" required maxlength="100">
+          </p>
 
-        <!--email field-->
-        <p>
-          <label for="email">Email</label><br>
-          <input type="email" id="email" name="email" required maxlength="254">
-        </p>
+          <!--email field-->
+          <p>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required maxlength="254">
+          </p>
 
-        <!--phone number field-->
-        <p>
-          <label for="phone">Phone No.</label><br>
-          <input type="tel" id="phone" name="phone">
-        </p>
+          <!--phone number field-->
+          <p>
+            <label for="phone">Phone No.</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-789" pattern="[[0-9]{3}-[0-9]{3]}-[0-9]{3}">
+          </p>
 
-        <!--comment field-->
-        <p>
-          <label for="comments">Comments</label><br>
-          <textarea id="comments" name="comments" rows="6" cols="60" maxlength="1000"></textarea>
-        </p>
-        
-        <!--submit and reset buttons-->
-        <p>
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
-        </p>
-        
-      </form>
+          <!--comment field-->
+          <p>
+            <label for="comments">Comments</label><br>
+            <textarea id="comments" name="comments" rows="6" cols="60" maxlength="1000"></textarea>
+          </p>
+          
+          <!--submit and reset buttons-->
+          <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </p>
+          
+        </form>
+      </section?
     </article>
   </main>
 
