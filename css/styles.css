@@ -26,15 +26,13 @@ body {
   background-color: #07130b;
 
   /* grid code adapted from online source, referenced in readme */
+  /* grid lines on top of gradient*/
   background-image:
-    /* horizontal grid lines */
-    linear-gradient(rgba(0,0,0,0.12) 1px, transparent 1px), 
-    /* vertical grid lines */
-    linear-gradient(90deg, rgba(0,0,0,0.12) 1px transparent 1px),
-    /* top to bottom gradient */
+
+    linear-gradient(rgba(0,0,0,0.12)1px, transparent 1px), 
+    linear-gradient(90deg, rgba(0,0,0,0.12) 1px),
     linear-gradient(180deg, #07130b, #04110a);
-    
-  /* gris layer and gradient layer spacing */
+
   background-size: 60px 60px, 60px 60px, cover;
 }
 
