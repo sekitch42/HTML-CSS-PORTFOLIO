@@ -39,12 +39,36 @@ body {
   opacity: .85;
   /* rounded corners */
   border-radius: 6px;
-  /* center horizontally and vertical */
-  margin: 20px auto;
   /* width of box relative to page */
   width: 60%;
-  /* space from top of banner */
+  /* horizontal centering */
+  margin: 0 auto;
+  /* add space between boxes */
+  margin-bottom: 10px;
+}
+/*add top spacing to first/only box */
+.first-box {
   margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+/*wrapper for project page*/
+#project-wrapper{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.proj-box {
+  float: left;
+  background-color: #071b14;
+  color: #a8e9bd;
+  padding: 20px;
+  opacity: .85;
+  border-radius: 6px;
+  width: 45%;
+  margin: 10px 2.5%;
+  vertical-align: top;
+  box-sizing: border-box;
 }
 
 /* wrapper styling */
