@@ -30,7 +30,7 @@ body {
     /* horizontal grid lines */
     linear-gradient(rgba(0,0,0,0.12) 1px, transparent 1px), 
     /* vertical grid lines */
-    linear-gradient(90deg, rgba(0,0,0,0.12) 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.12) transparent 1px),
     /* top to bottom gradient */
     linear-gradient(180deg, #07130b, #04110a);
     
