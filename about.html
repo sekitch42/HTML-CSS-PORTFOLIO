@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--character encoding for universal text-->
+<meta charset="utf-8">
+<!--page title in tab-->
+<title>Home - Portfolio</title>
+<!--makes site responsive on other devices-->
+<meta name="viewport" content="width=device-width">
+
+<!--links to main css stylesheet-->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!--desktop style for screens 960px and larger-->
+<link href="css/desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+<!--tablet style for screens between 481px and 959px-->
+<link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+<!--phone style for screens 480px and smaller-->
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<body>
+<!--main wrapper for page content-->
+<div id="wrapper">
+
+  <!--banner containing page heading and navigation links-->
+  <div id="banner">
+    <h1 id="home-title">Sarah Kitchen Portfolio</h1>
+      <!--navigation menu-->
+      <nav id="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+  </div>
+
+  <!--main content-->
+  <main>
+    <article>
+
+      <section>
+        <!--DON'T FORGET TO ADD PHOTO-->
+        <img src="images/profilephoto.png" alt="Photo of me" class="profile-photo" width="240" height="240">
+        <p>Hi, I'm a networking and IT security student at Ontario Tech University.</p>
+      </section>
+
+      <section>
+        <!--DON'T FORGET TO ADD VIDEO-->
+        <video id="intro-video" width="560" height="315" controls poster="images/poster.png">
+          <source src="videos/intro.mp4" type="video/mp4">
+          <source src="videos/intro.ogv" type="video/ogg">
+          Your browser doesn't support the video tag.
+        </video>
+      </section>
+
+    </article>
+  </main>
+
+<!--page footer-->
+<footer>
+  <p>&copy; 2025 by Sarah Kitchen</p>
+</footer>
+</body>
+</html>

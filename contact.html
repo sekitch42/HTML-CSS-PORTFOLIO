@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--character encoding for universal text-->
+<meta charset="utf-8">
+<!--page title in tab-->
+<title>Home - Portfolio</title>
+<!--makes site responsive on other devices-->
+<meta name="viewport" content="width=device-width">
+
+<!--links to main css stylesheet-->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!--desktop style for screens 960px and larger-->
+<link href="css/desktop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+<!--tablet style for screens between 481px and 959px-->
+<link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+<!--phone style for screens 480px and smaller-->
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<body>
+<!--main wrapper for page content-->
+<div id="wrapper">
+  
+  <!--banner containing page heading and navigation links-->
+  <div id="banner">
+    <h1 id="home-title">Sarah Kitchen Portfolio</h1>
+      <!--navigation menu-->
+      <nav id="top-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+  </div>
+
+  <!--main content form info-->
+  <main>
+    <article>
+
+      <!--mailto opens user's default email client
+      post sends form data-->
+      <form id="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain" name="contact">
+        <!--name field-->
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" required maxlength="100">
+        </p>
+
+        <!--email field-->
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required maxlength="254">
+        </p>
+
+        <!--phone number field-->
+        <p>
+          <label for="phone">Phone No.</label><br>
+          <input type="tel" id="phone" name="phone">
+        </p>
+
+        <!--comment field-->
+        <p>
+          <label for="comments">Comments</label><br>
+          <textarea id="comments" name="comments" rows="6" cols="60" maxlength="1000"></textarea>
+        </p>
+        
+        <!--submit and reset buttons-->
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+        
+      </form>
+    </article>
+  </main>
+
+<!--footer area-->
+<footer>
+  <p>&copy; 2025 by Sarah Kitchen</p>
+</footer>
+</body>
+</html>
