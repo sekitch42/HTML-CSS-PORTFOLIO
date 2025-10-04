@@ -67,7 +67,27 @@ body {
   margin: 0 auto;
   margin-top: 90px;
 }
+.media-box img,
+.media-box video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
+.media-box {
+  float: left;
+  vertical-align: top;
+  background-color: #071b14;
+  color: #a8e9bd;
+  padding: 20px;
+  opacity: .85;
+  border-radius: 6px;
+  width: 48%;
+  margin: 1%;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 
 .proj-box {
@@ -143,7 +163,12 @@ body {
   /* prevents wrapping */
   white-space: nowrap;
 }
-
+.profile-photo {
+  display: block;
+  margin: 20px auto;
+  max-width: 250px;
+  height: auto;
+}
 /* footer styling */
 footer {
   /* to keep footer at bottom of viewport */
