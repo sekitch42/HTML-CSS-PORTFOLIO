@@ -188,3 +188,7 @@ footer {
   /* inside spacing */
   padding: 6px;
 }
+
+footer a{
+  color: inherit;
+}
